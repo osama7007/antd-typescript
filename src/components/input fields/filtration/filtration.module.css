@@ -1,0 +1,36 @@
+.filter{
+    background-color: #fafafa;
+}
+.filter_wrapper{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.row_wrapper{
+    display:flex;
+    flex-direction: column;
+}
+.input_wrapper{
+    display:flex;
+    width: 190px;
+}
+.label{
+    display: inline-block;
+    width: 51%;
+}
+.button_style{
+    width: 200px;
+}
+.delete{
+    background:#ff4f42;
+    color:white !important;
+    border:none;
+}
+.delete:hover{
+    opacity: .8;
+}
+.button_label{
+    margin-right: 10px;
+}
